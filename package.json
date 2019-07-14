@@ -1,0 +1,29 @@
+{
+  "name": "rest-api-secnd",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "seed": "cross-env DB_ENBALE_LOGGING=true node './seeders'"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^5.2.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.1.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "promise.prototype.finally": "^3.1.0",
+    "pug": "^2.0.4",
+    "sequelize": "^5.10.0",
+    "sequelize-cli": "^5.5.0",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
